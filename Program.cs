@@ -6,7 +6,7 @@ namespace HashTableProgram
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Hashtable programs");
+            //Console.WriteLine("Welcome to the Hashtable programs");
 
             MyMapNode<string, string> hash = new MyMapNode<string, string>(5);
             hash.Add("0", "be");
